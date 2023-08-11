@@ -2,7 +2,7 @@
 
 This project is a Java application aimed at developing an automation system for a cafeteria. Users can select products, place orders, and manage student information.
 
-![Cafeteria Automation](https://ibb.co/vZF0XbQ)
+<a href="https://ibb.co/vZF0XbQ"><img src="https://i.ibb.co/J51D3Ny/Ana-Menu.png" alt="Ana-Menu" border="0"></a>
 
 ## Features
 
