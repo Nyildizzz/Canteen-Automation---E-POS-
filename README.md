@@ -1,57 +1,65 @@
-# Kantin Otomasyonu
+# Cafeteria Automation
 
-Bu proje, bir kantin için otomasyon sistemi geliştirmeyi amaçlayan bir Java uygulamasıdır. Kullanıcılar, ürünleri seçebilir, siparişleri gönderebilir ve öğrenci bilgilerini yönetebilir.
+This project is a Java application aimed at developing an automation system for a cafeteria. Users can select products, place orders, and manage student information.
 
-![Screenshot](https://img.imgyukle.com/2023/08/11/reP2Mj.png)
+![Cafeteria Automation](https://img.imgyukle.com/2023/08/11/reP2Mj.png)
 
-## Özellikler
+## Features
 
-- Kullanıcıların ürünleri seçip sepetlerine ekleyebilmesi.
-- Kullanıcıların siparişlerini gönderebilmesi.
-- Yönetici paneli aracılığıyla ürünleri ekleyebilme, düzenleyebilme ve silme.
-- Öğrenci bilgilerini görüntüleme ve yönetme.
+- Ability for users to select products and add them to their carts.
+- Users can place orders for the selected products.
+- Admin panel to add, edit, and delete products.
+- Viewing and managing student information.
 
-## Gereksinimler
+## Requirements
 
-- Java JDK 8 veya daha yeni sürüm
-- MySQL veritabanı
-- Java Swing kütüphanesi
+- Java JDK 8 or newer version
+- MySQL database
+- Java Swing library
 
-## Kurulum
+## Installation
 
-1. Bu depoyu bilgisayarınıza klonlayın:
+1. Clone this repository to your computer:
 
 ```bash
-git clone https://github.com/KullaniciAdi/kantin-otomasyonu.git
+git clone https://github.com/Username/cafeteria-automation.git
+```
 
-MySQL veritabanında "kantin" adında yeni bir veritabanı oluşturun.
+2. Create a new database named "cafeteria" in your MySQL database.
 
-2. Veritabanı bağlantı ayarlarınızı güncelleyin:
+3. Update the database connection settings:
 
-db.url=jdbc:mysql://localhost:3306/kantin
-db.username=kullanici_adi
-db.password=parola
+   File: `src/main/resources/config.properties`
 
+   ```properties
+   db.url=jdbc:mysql://localhost:3306/cafeteria
+   db.username=username
+   db.password=password
+   ```
 
-3. Proje klasörüne gidin ve uygulamayı derleyin:
+4. Navigate to the project folder and compile the application:
 
-cd kantin-otomasyonu
+```bash
+cd cafeteria-automation
 javac -cp "lib/*" src/main/java/*.java
+```
 
+5. Start the application:
 
-4. Uygulamayı başlatın:
-
+```bash
 java -cp "lib/*:src/main/java" Main
+```
 
+## Usage
 
-## Kullanım
--Uygulama başladığında, giriş yaparak öğrenci bilgilerini ve ürünleri görüntüleyebilirsiniz.
--Ürünleri seçmek için arayüzdeki sepete eklem düğmelerini kullanın.
--Siparişinizi tamamladığınızda siparişi onaylayın.
+- Upon starting the application, you can log in to view student information and products.
+- Use the "Add to Cart" buttons in the interface to select products.
+- Confirm your order when you're done.
 
-Katkılar
-Pull istekleri açıktır. Büyük değişikliklerden önce lütfen tartışma bölümünde konuşun.
+## Contributions
 
+Pull requests are welcome. Please discuss major changes in the "Discussion" section before making them.
 
+## License
 
-
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
