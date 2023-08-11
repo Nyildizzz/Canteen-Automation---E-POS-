@@ -2,7 +2,7 @@
 
 Bu proje, bir kantin için otomasyon sistemi geliştirmeyi amaçlayan bir Java uygulamasıdır. Kullanıcılar, ürünleri seçebilir, siparişleri gönderebilir ve öğrenci bilgilerini yönetebilir.
 
-![Screenshot](https://imgyukle.com/i/reP2Mj)
+![Screenshot](https://img.imgyukle.com/2023/08/11/reP2Mj.png)
 
 ## Özellikler
 
